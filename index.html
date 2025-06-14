@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Birthday Invitation</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
@@ -22,7 +22,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 100px 20px;
+      padding: 60px 20px;
       opacity: 0;
       transform: translateY(50px);
       transition: all 1s ease;
@@ -35,56 +35,46 @@
 
     .invitation {
       background: rgba(255, 255, 255, 0.85);
-      padding: 50px;
+      padding: 30px 20px;
       border-radius: 20px;
-      border: 3px solid #f8bbd0;
-      max-width: 700px;
+      border: 2px solid #f8bbd0;
+      width: 100%;
+      max-width: 500px;
       text-align: center;
-      box-shadow: 0 0 15px rgba(0,0,0,0.15);
-      position: relative;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     .invitation h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 2.4em;
+      margin-bottom: 15px;
     }
 
     .invitation p {
-      font-size: 1.6em;
-      margin: 20px 0;
-      line-height: 1.6;
+      font-size: 1.3em;
+      margin: 15px 0;
+      line-height: 1.5;
     }
 
     .countdown {
-      font-size: 1.6em;
+      font-size: 1.2em;
       margin-top: 20px;
       color: #a63654;
     }
 
-    @media (max-width: 768px) {
-      .invitation {
-        padding: 20px;
-        margin: 0 10px;
-      }
-
+    @media (max-width: 480px) {
       .invitation h1 {
-        font-size: 2.2em;
+        font-size: 2em;
       }
 
       .invitation p,
       .countdown {
-        font-size: 1.2em;
-      }
-
-      .section {
-        padding: 60px 10px;
+        font-size: 1.1em;
       }
     }
   </style>
 </head>
 <body>
 
-  <!-- Секция 1 -->
   <div class="section" id="section1">
     <div class="invitation">
       <h1>You are invited</h1>
@@ -95,7 +85,6 @@
     </div>
   </div>
 
-  <!-- Секция 2 -->
   <div class="section" id="section2">
     <div class="invitation">
       <p>
@@ -104,7 +93,6 @@
     </div>
   </div>
 
-  <!-- Секция 3 -->
   <div class="section" id="section3">
     <div class="invitation">
       <p>
@@ -113,7 +101,6 @@
     </div>
   </div>
 
-  <!-- Секция 4 -->
   <div class="section" id="section4">
     <div class="invitation">
       <p>
